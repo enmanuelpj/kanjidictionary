@@ -1,0 +1,159 @@
+.content-table-div {
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 600px;
+}
+
+.title {
+    text-align: center;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+table th {
+    background-color: color-mix(in srgb, #D61515 60%, #ED8383);
+    color: #5a0404;
+    text-align: left;
+    padding: 8px;
+    font-weight: 450px;
+}
+  
+table td {
+    background-color: #ED8383;
+    color: #5a0404;
+    padding: 8px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.close-modal-button {
+    background-color: #ED8383; 
+    color: #5a0404; 
+    width: 30px; 
+    height: 30px; 
+    border: none; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    margin-left: 220px; 
+    margin-top: -10px;
+}
+
+.close-modal:hover {
+    background-color: #ED8383;
+}
+
+.close-modal:active {
+    background-color: #8d3333; 
+}
+
+.add-button {
+    background-color: #ED8383; 
+    color: #5a0404; 
+    width: 40px; 
+    height: 40px; 
+    border: none; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+
+.add-button:hover {
+    background-color: #ED8383; 
+}
+
+.add-button:active {
+    background-color: #8d3333; 
+}
+
+.delete-button {
+    background-color: #ED8383; 
+    color: #5a0404; 
+    width: 40px; 
+    height: 40px; 
+    border: none; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    margin-right: 10px;
+   
+}
+
+.delete-button:hover {
+    background-color: #ED8383;
+}
+
+.delete-button:active {
+    background-color: #8d3333; 
+}
+
+.boton-edicion {
+    background-color: '#ED8383';
+    color: '#5a0404';
+    width: '40px';
+    height: '40px'; 
+    border: 'none';
+    border-radius: '50%'; 
+    font-size: '18px';
+}
+
+.circle-button {
+    background-color: #ED8383;
+    color: #5a0404;
+    border: none;
+    border-radius: 50%;
+    width: 40px; /* Ajusta el ancho según sea necesario */
+    height: 40px; /* Ajusta el alto según sea necesario */
+    font-size: 18px;
+    padding: 0; /* Elimina el relleno para asegurarte de que el botón sea un círculo perfecto */
+}
+
+table td.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ED8383;
+    color: #5a0404;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+table td.update-button {
+    background-color: #ED8383;
+    color: #5a0404;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.update-button:hover {
+    background-color: #ED8383;
+}
+
+.update-button:active {
+    background-color: #8d3333; 
+}
