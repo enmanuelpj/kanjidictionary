@@ -38,7 +38,7 @@ function UpdateKanji({ editingKanji, closeModal }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/api/updateKanji', {
+            const response = await fetch('https://kanjidictionary.onrender.com/api/updateKanji', {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

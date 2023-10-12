@@ -29,7 +29,7 @@ function AddKanji() {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/api/newKanji', {
+            const response = await fetch('https://kanjidictionary.onrender.com/api/newKanji', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

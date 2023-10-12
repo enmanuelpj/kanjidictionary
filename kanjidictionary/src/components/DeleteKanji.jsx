@@ -17,7 +17,7 @@ function DeleteKanji() {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/api/deleteKanji', {
+            const response = await fetch('https://kanjidictionary.onrender.com/api/deleteKanji', {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
