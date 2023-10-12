@@ -17,7 +17,7 @@ function Table() {
     console.log(kanjiData);
 
     useEffect(() => {
-        fetch('http://localhost:4000/api/getAllKanji')
+        fetch('https://kanjidictionary.onrender.com/api/getAllKanji')
             .then(response => response.json())
             .then(data => setKanjiData(data))
             .catch(error => console.error(error));
